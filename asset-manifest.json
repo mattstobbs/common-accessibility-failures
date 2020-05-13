@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/common-accessibility-failures/static/css/main.c93807dd.chunk.css",
+    "main.js": "/common-accessibility-failures/static/js/main.a2bcb552.chunk.js",
+    "main.js.map": "/common-accessibility-failures/static/js/main.a2bcb552.chunk.js.map",
+    "runtime-main.js": "/common-accessibility-failures/static/js/runtime-main.de2cd70d.js",
+    "runtime-main.js.map": "/common-accessibility-failures/static/js/runtime-main.de2cd70d.js.map",
+    "static/js/2.32024f0f.chunk.js": "/common-accessibility-failures/static/js/2.32024f0f.chunk.js",
+    "static/js/2.32024f0f.chunk.js.map": "/common-accessibility-failures/static/js/2.32024f0f.chunk.js.map",
+    "index.html": "/common-accessibility-failures/index.html",
+    "precache-manifest.1a2b00f3170a171138c804ae6976aac5.js": "/common-accessibility-failures/precache-manifest.1a2b00f3170a171138c804ae6976aac5.js",
+    "service-worker.js": "/common-accessibility-failures/service-worker.js",
+    "static/css/main.c93807dd.chunk.css.map": "/common-accessibility-failures/static/css/main.c93807dd.chunk.css.map",
+    "static/js/2.32024f0f.chunk.js.LICENSE.txt": "/common-accessibility-failures/static/js/2.32024f0f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de2cd70d.js",
+    "static/js/2.32024f0f.chunk.js",
+    "static/css/main.c93807dd.chunk.css",
+    "static/js/main.a2bcb552.chunk.js"
+  ]
+}
