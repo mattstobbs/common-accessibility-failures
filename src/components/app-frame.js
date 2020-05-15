@@ -4,6 +4,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Tooltip from '@material-ui/core/Tooltip';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import AppDrawer from './app-drawer';
 
 const useStyles = makeStyles((theme) => ({
@@ -22,6 +24,9 @@ const useStyles = makeStyles((theme) => ({
       flexShrink: 0,
       width: 240,
     },
+  },
+  grow: {
+    flex: '1 1 auto',
   },
 }));
 
@@ -49,6 +54,17 @@ const AppFrame = ({ pages, children }) => {
           >
             <MenuIcon />
           </IconButton>
+          <div className={classes.grow} />
+          <Tooltip title="Github repository" enterDelay={300}>
+            <IconButton
+              component="a"
+              color="inherit"
+              href="https://github.com/mattstobbs/common-accessibility-failures"
+              aria-label="Github repository"
+            >
+              <GitHubIcon />
+            </IconButton>
+          </Tooltip>
         </Toolbar>
       </AppBar>
       <AppDrawer
