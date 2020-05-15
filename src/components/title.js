@@ -1,16 +1,7 @@
 import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import { pages } from '../utils/urls';
-
-const usePageTitle = () => {
-  const { pathname } = useLocation();
-  const page = pages.find((p) => p.href === pathname);
-  if (!page) return '';
-
-  return page.title;
-};
+import { usePageTitle } from '../utils/usePageTitle';
 
 const useStyles = makeStyles((theme) => ({
   title: {

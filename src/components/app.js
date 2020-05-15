@@ -17,6 +17,7 @@ import EmptyLinks from './empty-links';
 import MissingInputLabels from './missing-input-labels';
 import EmptyButtons from './empty-buttons';
 import MissingDocumentLanguage from './missing-document-language';
+import Header from './header';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,7 +37,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// TODO: React Helmet
 // TODO: Add footer with link to blog
 // TODO: Explanation adapted from blog (READ MORE button)
 const App = () => {
@@ -46,6 +46,7 @@ const App = () => {
   return (
     <>
       <Router>
+        <Header />
         <AppFrame pages={pages}>
           <Container
             component="main"
