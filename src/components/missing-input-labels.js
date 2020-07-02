@@ -80,7 +80,10 @@ const MissingInputLabels = ({ accessibility }) => {
         {accessibility ? accessibleCodeSnippet : inaccessibleCodeSnippet}
       </CodeSnippet>
       <MoreDetails
-        links={['https://dequeuniversity.com/rules/axe/3.5/label']}
+        links={[
+          'https://blog.scottlogic.com/2020/07/02/6-most-common-accessibility-problems.html#missing-form-input-labels',
+          'https://dequeuniversity.com/rules/axe/3.5/label',
+        ]}
       />
     </>
   );

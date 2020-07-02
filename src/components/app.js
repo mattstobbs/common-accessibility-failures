@@ -39,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
 
 // TODO: Add footer with link to blog
 // TODO: Explanation adapted from blog (READ MORE button)
+// TODO: Add a coming soon for explanations
 const App = () => {
   const classes = useStyles();
   const [accessibility, setAccessibility] = useState(false);

@@ -26,7 +26,10 @@ const EmptyLinks = ({ accessibility }) => (
     `}
     </CodeSnippet>
     <MoreDetails
-      links={['https://dequeuniversity.com/rules/axe/3.5/link-name']}
+      links={[
+        'https://blog.scottlogic.com/2020/07/02/6-most-common-accessibility-problems.html#empty-links-and-empty-buttons',
+        'https://dequeuniversity.com/rules/axe/3.5/link-name',
+      ]}
     />
   </>
 );

@@ -16,7 +16,10 @@ const MissingDocumentLanguage = ({ accessibility }) => (
     `}
     </CodeSnippet>
     <MoreDetails
-      links={['https://dequeuniversity.com/rules/axe/3.5/html-has-lang']}
+      links={[
+        'https://blog.scottlogic.com/2020/07/02/6-most-common-accessibility-problems.html#missing-document-language',
+        'https://dequeuniversity.com/rules/axe/3.5/html-has-lang',
+      ]}
     />
   </>
 );

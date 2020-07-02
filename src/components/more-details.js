@@ -16,15 +16,15 @@ const MoreDetails = ({ links }) => {
     <>
       <Typography>For more information, visit: </Typography>
       <ul>
-        <li>
-          <Typography>
-            {links.map((link) => (
+        {links.map((link) => (
+          <li>
+            <Typography>
               <Link className={classes.link} key={link} href={link}>
                 {link}
               </Link>
-            ))}
-          </Typography>
-        </li>
+            </Typography>
+          </li>
+        ))}
       </ul>
     </>
   );

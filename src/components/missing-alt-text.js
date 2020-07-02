@@ -133,7 +133,10 @@ const MissingAltText = ({ accessibility }) => {
     `}
       </CodeSnippet>
       <MoreDetails
-        links={['https://dequeuniversity.com/rules/axe/3.5/image-alt']}
+        links={[
+          'https://blog.scottlogic.com/2020/07/02/6-most-common-accessibility-problems.html#missing-alternative-text-for-images',
+          'https://dequeuniversity.com/rules/axe/3.5/image-alt',
+        ]}
       />
     </>
   );

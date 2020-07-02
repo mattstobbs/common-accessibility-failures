@@ -59,7 +59,10 @@ const LowContrastText = ({ accessibility }) => {
     `}
       </CodeSnippet>
       <MoreDetails
-        links={['https://dequeuniversity.com/rules/axe/3.5/color-contrast']}
+        links={[
+          'https://blog.scottlogic.com/2020/07/02/6-most-common-accessibility-problems.html#low-contrast-text',
+          'https://dequeuniversity.com/rules/axe/3.5/color-contrast',
+        ]}
       />
     </>
   );
