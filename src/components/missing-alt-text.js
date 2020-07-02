@@ -78,16 +78,14 @@ const MissingAltText = ({ accessibility }) => {
           }}
           unsplash="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         >
-          {accessibility ? (
-            <img
-              className={classes.image}
-              src={dogs}
-              alt="white and brown corgi besides brown dog"
-            />
-          ) : (
-            // eslint-disable-next-line jsx-a11y/alt-text
-            <img className={classes.image} src={dogs} />
-          )}
+          {/* eslint-disable-next-line jsx-a11y/alt-text */}
+          <img
+            className={classes.image}
+            src={dogs}
+            {...(accessibility
+              ? { alt: 'white and brown corgi besides brown dog' }
+              : {})}
+          />
         </ToolTip>
         <ToolTip
           by={{
@@ -97,14 +95,12 @@ const MissingAltText = ({ accessibility }) => {
           }}
           unsplash="https://unsplash.com/s/photos/highland-cattle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         >
-          {accessibility ? (
-            <div
-              className={classes.backgroundImage}
-              aria-label="a highland cattle licking its nose"
-            />
-          ) : (
-            <div className={classes.backgroundImage} />
-          )}
+          <div
+            className={classes.backgroundImage}
+            {...(accessibility
+              ? { 'aria-label': 'a highland cattle licking its nose' }
+              : {})}
+          />
         </ToolTip>
         <ToolTip
           by={{
@@ -114,17 +110,13 @@ const MissingAltText = ({ accessibility }) => {
           }}
           unsplash="https://unsplash.com/s/photos/background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         >
-          {accessibility ? (
-            <img
-              id="decorative-image"
-              className={classes.image}
-              src={bricks}
-              alt=""
-            />
-          ) : (
-            // eslint-disable-next-line jsx-a11y/alt-text
-            <img id="decorative-image" className={classes.image} src={bricks} />
-          )}
+          {/* eslint-disable-next-line jsx-a11y/alt-text */}
+          <img
+            id="decorative-image"
+            className={classes.image}
+            src={bricks}
+            {...(accessibility ? { alt: '' } : {})}
+          />
         </ToolTip>
       </Example>
       <CodeSnippet>

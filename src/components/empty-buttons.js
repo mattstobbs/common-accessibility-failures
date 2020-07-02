@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import Description from './description';
@@ -12,18 +13,27 @@ const EmptyButtons = ({ accessibility }) => (
       Buttons without text should be described using the aria-label attribute.
     </Description>
     <Example>
-      {accessibility ? (
-        <IconButton color="primary" aria-label="Share on Twitter">
+      <>
+        <Button
+          variant="contained"
+          size="medium"
+          color="primary"
+          {...(accessibility ? { 'aria-label': 'Add a playlist' } : {})}
+        >
+          +
+        </Button>
+        <IconButton
+          color="primary"
+          {...(accessibility ? { 'aria-label': 'Share on Twitter' } : {})}
+        >
           <TwitterIcon />
         </IconButton>
-      ) : (
-        <IconButton color="primary">
-          <TwitterIcon />
-        </IconButton>
-      )}
+      </>
     </Example>
     <CodeSnippet>
       {`
+    <button${accessibility ? ' aria-label="Add a playlist"' : ''}>+</button>
+
     <button${accessibility ? ' aria-label="Share on Twitter"' : ''}>
       <twitter-icon />
     </button>

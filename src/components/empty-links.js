@@ -11,18 +11,12 @@ const EmptyLinks = ({ accessibility }) => (
       Links without text should be described using the aria-label attribute.
     </Description>
     <Example>
-      {accessibility ? (
-        <a
-          href="https://twitter.com/matt_stobbs"
-          aria-label="Visit our twitter page"
-        >
-          <TwitterIcon />
-        </a>
-      ) : (
-        <a href="https://twitter.com/matt_stobbs">
-          <TwitterIcon />
-        </a>
-      )}
+      <a
+        href="https://twitter.com/matt_stobbs"
+        {...(accessibility ? { 'aria-label': 'Visit our twitter page' } : {})}
+      >
+        <TwitterIcon color="primary" />
+      </a>
     </Example>
     <CodeSnippet>
       {`
