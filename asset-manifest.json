@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/common-accessibility-failures/static/css/main.5c771b38.chunk.css",
-    "main.js": "/common-accessibility-failures/static/js/main.2daceecd.chunk.js",
-    "main.js.map": "/common-accessibility-failures/static/js/main.2daceecd.chunk.js.map",
+    "main.js": "/common-accessibility-failures/static/js/main.e4632779.chunk.js",
+    "main.js.map": "/common-accessibility-failures/static/js/main.e4632779.chunk.js.map",
     "runtime-main.js": "/common-accessibility-failures/static/js/runtime-main.de2cd70d.js",
     "runtime-main.js.map": "/common-accessibility-failures/static/js/runtime-main.de2cd70d.js.map",
     "static/css/2.e4477242.chunk.css": "/common-accessibility-failures/static/css/2.e4477242.chunk.css",
-    "static/js/2.7d2f622f.chunk.js": "/common-accessibility-failures/static/js/2.7d2f622f.chunk.js",
-    "static/js/2.7d2f622f.chunk.js.map": "/common-accessibility-failures/static/js/2.7d2f622f.chunk.js.map",
+    "static/js/2.78a16ea2.chunk.js": "/common-accessibility-failures/static/js/2.78a16ea2.chunk.js",
+    "static/js/2.78a16ea2.chunk.js.map": "/common-accessibility-failures/static/js/2.78a16ea2.chunk.js.map",
     "index.html": "/common-accessibility-failures/index.html",
-    "precache-manifest.14d997af4261121b00b663299cae888e.js": "/common-accessibility-failures/precache-manifest.14d997af4261121b00b663299cae888e.js",
+    "precache-manifest.f38549e7e5cbf7b95ad7a1e4c707269b.js": "/common-accessibility-failures/precache-manifest.f38549e7e5cbf7b95ad7a1e4c707269b.js",
     "service-worker.js": "/common-accessibility-failures/service-worker.js",
     "static/css/2.e4477242.chunk.css.map": "/common-accessibility-failures/static/css/2.e4477242.chunk.css.map",
     "static/css/main.5c771b38.chunk.css.map": "/common-accessibility-failures/static/css/main.5c771b38.chunk.css.map",
-    "static/js/2.7d2f622f.chunk.js.LICENSE.txt": "/common-accessibility-failures/static/js/2.7d2f622f.chunk.js.LICENSE.txt",
+    "static/js/2.78a16ea2.chunk.js.LICENSE.txt": "/common-accessibility-failures/static/js/2.78a16ea2.chunk.js.LICENSE.txt",
     "static/media/brick-wall.jpg": "/common-accessibility-failures/static/media/brick-wall.d5fb98b7.jpg",
     "static/media/highland-cattle.jpg": "/common-accessibility-failures/static/media/highland-cattle.a87d3a7b.jpg",
     "static/media/running-dogs.jpg": "/common-accessibility-failures/static/media/running-dogs.1c7f10c9.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.de2cd70d.js",
     "static/css/2.e4477242.chunk.css",
-    "static/js/2.7d2f622f.chunk.js",
+    "static/js/2.78a16ea2.chunk.js",
     "static/css/main.5c771b38.chunk.css",
-    "static/js/main.2daceecd.chunk.js"
+    "static/js/main.e4632779.chunk.js"
   ]
 }
